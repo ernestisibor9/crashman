@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .invoice {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .invoice-header {
+      text-align: center;
+    }
+
+    .invoice-header h1 {
+      font-size: 28px;
+    }
+
+    .invoice-details {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .invoice-details .left {
+      flex: 1;
+    }
+
+    .invoice-details .right {
+      flex: 1;
+      text-align: right;
+    }
+
+    .invoice-billing {
+      margin-top: 20px;
+    }
+
+    .invoice-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .invoice-table th,
+    .invoice-table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .invoice-table th {
+      background-color: #f2f2f2;
+    }
+
+    .invoice-total {
+      margin-top: 20px;
+      text-align: right;
+    }
+
+    .invoice-footer {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="invoice">
+    <div class="invoice-header">
+      <h1>Invoice</h1>
+    </div>
+    <div class="invoice-details">
+      <div class="left">
+        <p><strong>From:</strong> Your Company Name</p>
+        <p>123 Main Street</p>
+        <p>City, State, ZIP</p>
+        <p>Email: your@email.com</p>
+      </div>
+      <div class="right">
+        <p><strong>To:</strong> Client Name</p>
+        <p>Client Company Name</p>
+        <p>456 Client Street</p>
+        <p>City, State, ZIP</p>
+        <p>Email: client@email.com</p>
+      </div>
+    </div>
+    <div class="invoice-billing">
+      <table class="invoice-table">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Item 1</td>
+            <td>2</td>
+            <td>$50.00</td>
+            <td>$100.00</td>
+          </tr>
+          <tr>
+            <td>Item 2</td>
+            <td>1</td>
+            <td>$75.00</td>
+            <td>$75.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="invoice-total">
+      <p><strong>Total:</strong> $175.00</p>
+    </div>
+    <div class="invoice-footer">
+      <p>Thank you for your business!</p>
+    </div>
+  </div>
+</body>
+</html>
