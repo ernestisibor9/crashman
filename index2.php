@@ -13,6 +13,5 @@
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore amet consequuntur laborum magnam porro sit,
     quaerat dignissimos sint rem illum hic, voluptatum ducimus aspernatur iste. Assumenda totam praesentium et!
   </p>
-  <a href="#">Read more ...</a>
 </body>
 </html>
